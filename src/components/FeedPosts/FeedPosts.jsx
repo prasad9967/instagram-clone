@@ -23,7 +23,7 @@ const FeedPosts = () => {
       {!isLoading && posts.length > 0 && posts.map((post) => <FeedPost key={post.id} post={post} />)}
       {!isLoading && posts.length === 0 && (
         <>
-          Add your custom test
+          Follow the list of Users to see their posts
         </>
       )}
     </Container>
